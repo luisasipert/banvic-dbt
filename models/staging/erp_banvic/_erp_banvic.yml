@@ -8,3 +8,6 @@ sources:
 
       - name: clientes
         description: Tabela fonte de clientes com informações pessoais e cada cliente da Banvic.
+
+      - name: colaboradores
+        description: Tabela fonte de colaboradores da Banvic.
