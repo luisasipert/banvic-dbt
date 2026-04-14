@@ -18,7 +18,7 @@ models:
       - name: tipo_transacao
         description: Tipo da transação, classificada como 'Crédito' ou 'Débito' com base no valor.
         data_tests:
-          - - accepted_values:
+          - accepted_values:
               values: ['Crédito', 'Débito']
       - name: valor_transacao
         description: Valor monetário da transação.

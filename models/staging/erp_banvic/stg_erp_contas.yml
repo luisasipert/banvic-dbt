@@ -13,7 +13,7 @@ models:
       - name: numero_conta
         description: Número da conta bancária.
       - name: tipo_conta
-        description: Tipo da conta (ex: corrente, poupança, etc.)
+        description: Tipo da conta (corrente, poupança, etc.)
       - name: ts_abertura_conta
         description: Timestamp da data de abertura da conta.
       - name: saldo_total
