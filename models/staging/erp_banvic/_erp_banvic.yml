@@ -48,6 +48,10 @@ sources:
                   - cod_agencia
 
 
+      - name: contas
+        description: Tabela fonte de contas da Banvic.
+
+
       - name: propostas_credito
         description: Tabela fonte de propostas de crédito da Banvic.
 
