@@ -11,7 +11,7 @@ with
     , criar_datas AS (
         SELECT
             ROW_NUMBER() OVER(ORDER BY date_day) as pk_data --criando um ID sequencial de 1, 2, 3...
-            , CAST(date_day AS DATE) AS dt_data
+            , CAST(date_day AS DATE) AS data_completa
             , EXTRACT(DAY FROM date_day) AS dia
             , EXTRACT(MONTH FROM date_day) AS mes
             , EXTRACT(YEAR FROM date_day) AS ano
